@@ -141,6 +141,7 @@ stock void GiveWeapon( int client, const char[] wepname, int slot )
     if ( (wep = GetPlayerWeaponSlot( client, slot )) > 0 && IsValidEdict( wep ) )
     {
         RemovePlayerItem( client, wep );
+        KillEntity( wep );
     }
     
     
