@@ -7,6 +7,7 @@
 #undef REQUIRE_PLUGIN
 #include <influx/help>
 
+#include <msharedutil/ents>
 
 enum
 {
